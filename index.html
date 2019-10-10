@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+
+</head>
+<body>
+
+<header class="site-header clearfix">
+ <nav>
+  <div class="logo">
+   <h1>PSR COMMUNICATION</h1>
+  </div>
+  <div class="menu"> 
+   <ul>
+    <li  onmouseover="release();">Home</li>
+    <li  onmouseover="Services();">Services</li>
+    <li  onmouseover="About();">About Us</li>
+    <li  onmouseover="Contact();">ContactUs</li>
+   </ul>
+   <div id="hide" style="background-color:#C39BD3 ;color:black ;width:40%; margin-left:30%;border-radius: 20px 20px 20px 20px" align="center"></div>
+  </div>
+ </nav>
+ <section>
+  <div class="leftside"> 
+   <img src="image/intro2.png">
+  </div>
+  <div class="rightside"> 
+   
+   <h1>
+        WE Are Here To<br> HELP YOU
+   </h1>
+   <p  class="blinking"> Email : psrcommuni@gmail.com || phone number: 98******3 </p>
+   <a href="welcome.html">  <button>Welcome</button></a>
+  </div>
+  
+ </section>
+
+</header>
+
+
+
+<script type="text/javascript">
+  
+    function release(){
+        document.getElementById("hide").innerHTML=""  }
+
+  function Services(){
+        document.getElementById("hide").innerHTML="HI this is Best Service platform for you guyzz <br> Hand to hand Repairing at Affordable charges <br>  all type of repairing s here"  }
+
+ function About(){
+        document.getElementById("hide").innerHTML="<ul><li><h2>DEALOR</h2> <br> SHIV</li><li><h2>CREATOR </h2><br> SHIVAM SHARMA</li></ul>"  }
+ function Contact(){
+        document.getElementById("hide").innerHTML="HI this is Contact"  }
+ 
+</script>
+</body>
+</html>
